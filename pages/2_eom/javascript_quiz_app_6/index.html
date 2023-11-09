@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/Sortable.js"></script>
+    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Виртуализация и облачные технологии</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="black_header">
+        <h1>
+            Виртуализация и облачные технологии
+        </h1>
+        <div class="links_black_header">
+            <a href="../../../index.html">На главную</a>
+            <a class="disabled_button" href="#">Назад</a>
+        </div>
+    </div>
+    <div class="head_text">
+        <div class="questions" id="question_number_1">
+            <h2 id="number_question_head"><span>1.</span> Расставьте по порядку</h2>
+        </div>
+        <div class="number_marker">
+            <img  onclick="openPopUp()" id="description_button_1" src="./content/description.svg" alt="description">
+            <p class="number_question_ten">1/10</p>
+        </div>
+    </div>
+    <div class="main_window">
+
+        <div class="body-inner">
+            
+            <div class="drag1">
+                
+                <div class="numbers">
+                    <!-- <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span>
+                    <span class="number">1</span> -->
+                </div>
+
+                <ul class="list" id="list">
+                
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="button_part">
+        <div class="step_marker">
+
+        </div>
+        <div class="buttons_div">
+            <button id="control_button_1" onclick="location.href='../javascript_quiz_app_5/index.html'">Назад</button>
+            <button onclick="checkAnwser()" id="control_button_2">Ответить</button>
+            <button onclick="reloadPage()" class="disabled_button" id="control_button_3">Повторить</button>
+            <button class="disabled_button" id="control_button_4" onclick="location.href='../javascript_quiz_app_7/index.html'">Далее</button>
+        </div>
+    </div>
+    <div id="popup1" class="popup close">
+        <div class="popup_body">
+            <div class="popup_content">
+                <div class="popup_header">
+                    <h3> </h3>
+                    <button onclick="closePopUp()" id="close_popup_button_1"><img src="./content/close.svg" alt="close"></button>
+                </div>
+                <div class="popup_text">
+                    <h3>1. Ознакомьтесь с правилами техники безопасности</h3>
+
+                    <h3>2. Посмотрите скринкаст по установке VirtualBox</h3>
+
+                    <h3>3. Укажите, к какому типу гипервизора относится VirtualBox</h3>
+
+                    <h3>4. Укажите, какой официальный сайт у проекта VirtualBox</h3>
+
+                    <h3>5. Отметьте, для чего необходим этап анализа требований</h3>
+
+                    <h3>6. Установите правильную последовательность действий при создании виртуальной машины</h3>
+
+                    <h3>7. Укажите, какая версия Ubuntu имеет долгосрочную поддержку</h3>
+
+                    <h3>8. Посмотрите скринкаст об установке операционной системы Ubuntu на созданную виртуальную машину</h3>
+
+                    <h3>9. Ознакомьтесь со спиральной моделью разработки ПО</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
