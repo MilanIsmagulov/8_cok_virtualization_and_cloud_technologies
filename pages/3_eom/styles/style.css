@@ -338,6 +338,11 @@ header h1 {
         padding: 0px !important;
     }
 
+    .state_marker img{
+        height: 20px !important;
+        width: 20px !important;
+    }
+
     .welcome_text{
         font-size: 20px !important;
         margin-bottom: 10px;
@@ -383,7 +388,10 @@ header h1 {
     .question_wrap button{
         padding: 0px !important;
     }
-    
+    .state_marker img{
+        height: 20px !important;
+        width: 20px !important;
+    }
     .question button{
         font-size: 30px;
         padding: 10px !important;
