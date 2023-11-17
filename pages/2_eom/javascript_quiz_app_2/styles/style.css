@@ -30,7 +30,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 95px;
     color: white;
     background-color: black;
 }
@@ -191,56 +190,6 @@ input:disabled {
     background: rgb(255, 144, 144);
 }
 
-@media (max-width: 1180px) {
-    body{
-        width: 100%;
-
-    }
-
-    .answers_btn form {
-        width: 700px;
-        
-    }
-    .answers_btn form div {
-        width: 700px;
-
-    }
-    .choices_div2{
-        width: 700px;
-    }
-    .question_part #question {
-        padding: 10px;
-        margin: 10px;
-        margin-top: 10px;
-    }
-    .button_part {
-        margin-top: 5px;
-        padding-bottom: 50px;
-    }
-
-    .step_marker_and_buttons {
-        width: 90vw;
-        padding-bottom: 0px;
-        
-    }
-
-    .answers_btn form div {
-        margin: 5px;
-    }
-
-    .main_buttons button {
-        width: 130px;
-    }
-    .questions{
-        margin: 15px;
-    }
-    .questions p{
-        padding:  10px;
-    }
-    .answers_btn form {
-        margin-bottom: 20px;
-    }
-}
 
 .theory_eom{
     display: flex;
@@ -284,14 +233,6 @@ input:disabled {
         width: 70%;
     }
 
-    .step_marker_and_buttons{
-        display: flex;
-        width: 93vw;
-    }
-
-    .theory_eom{
-        height: 600px;
-    }
     .content{
         margin-right: 0;
     }
@@ -303,6 +244,75 @@ input:disabled {
     }
 }
 
-@media (max-width: 1180px) {
 
+@media (max-width: 1180px) {
+    .black_header h1{
+        width: 50%;
+    }
+    .content{
+        margin-right: 0;
+    }
+    .popup_text img{
+
+        height: 100%;
+    }
+    .answers_btn form {
+        width: 700px;
+        
+    }
+
+    .theory_eom{
+        margin: 0 !important;
+    }
+
+    .step_marker{
+        margin: 0 !important;
+        margin-bottom: 25px !important;
+    }
+
+    .theory_eom video{
+        padding: 25px;
+        width: 100% !important;
+    }
+
+    .answers_btn form div {
+        width: 700px;
+
+    }
+    .choices_div2{
+        width: 700px;
+    }
+    .question_part #question {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+    .button_part {
+        margin-top: 5px;
+        padding-bottom: 50px;
+    }
+
+    .step_marker_and_buttons {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 !important;
+        padding: 25px !important;
+    }
+
+    .answers_btn form div {
+        margin: 5px;
+    }
+
+    .main_buttons button {
+        width: 130px;
+    }
+    .questions{
+        margin: 15px;
+    }
+    .questions p{
+        padding:  10px;
+    }
+    .answers_btn form {
+        margin-bottom: 20px;
+    }
 }

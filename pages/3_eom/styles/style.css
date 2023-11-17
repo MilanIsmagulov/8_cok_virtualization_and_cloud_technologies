@@ -42,7 +42,7 @@ header h1 {
     color: white;
     padding: 2vh 4vh;
     border: solid 0.13vw;
-    border-radius: 2vw;
+    border-radius: 100vw;
     width: 10vw;
     margin-left: 2vw;
     transition: all 0.15s;
@@ -147,9 +147,9 @@ header h1 {
 }
 
 .logo_wrap img{
-    padding-top: 25px;
-    height: 800px;
-    width: 100px;
+    padding: 25px !important;
+    height: 90% !important;
+    width: 80px !important;
 }
 
 .score_wrap {
@@ -322,5 +322,104 @@ header h1 {
     
     .state_marker img {
         width: 30px;
+    }
+}
+
+/* Камень я не дам */
+
+.logo_wrap img{
+    padding: 25px !important;
+    height: 90% !important;
+    width: 80px !important;
+}
+
+@media (max-width: 1180px){
+    .welcome_text{
+        font-size: 20px !important;
+        margin-bottom: 10px;
+    }
+
+    .text_wrap{
+        margin-left: 0;
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+
+    .question button{
+        font-size: 40px;
+        border-radius: 15px;
+        margin: 1px !important;
+        width: 130px;
+        height: 130px;
+    }
+
+    .questions_btns{
+        flex-wrap: wrap;
+    }
+
+    .score_wrap p{
+        font-size: 20px;
+    }
+
+    .state_marker{
+
+        top: 1px;
+        right: 5px;
+    }
+
+    .header_links a {
+        font-size: clamp(15px, 0.5vh , 25px);
+        padding: 1vh 1vh;
+        margin-left: 2vw;
+    }
+}
+
+
+@media (max-width: 850px){
+    
+    .question button{
+        font-size: 30px;
+        border-radius: 15px;
+        margin: 1px !important;
+        width: 110px;
+        height: 110px;
+    }
+
+    .header_links a {
+        font-size: clamp(15px, 0.5vh , 25px);
+        padding: 1vh 1vh;
+        margin-left: 2vw;
+    }
+
+    .score_wrap{
+        padding: 25px !important;
+        padding-top: 50px !important;
+        margin: 0 !important;
+    }
+
+    .score_wrap p{
+        font-size: 15px;
+    }
+    
+    .logo_wrap{
+        display: none;
+    }
+    .question_wrap{
+        width: 100%;
+    }
+
+    .state_marker{
+        top: 1px;
+        right: 5px;
+    }
+}
+
+@media (max-width: 565px){
+    .question button{
+        font-size: 30px;
+        border-radius: 15px;
+        margin: 1px !important;
+        width: 95px;
+        height: 110px;
     }
 }
