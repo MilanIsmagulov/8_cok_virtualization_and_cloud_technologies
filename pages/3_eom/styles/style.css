@@ -335,9 +335,9 @@ header h1 {
 
 @media (max-width: 1180px){
     .question_wrap button{
-        padding: 10px !important;
+        padding: 0px !important;
     }
-    
+
     .welcome_text{
         font-size: 20px !important;
         margin-bottom: 10px;
@@ -381,8 +381,9 @@ header h1 {
 
 @media (max-width: 850px){
     .question_wrap button{
-        padding: 10px !important;
+        padding: 0px !important;
     }
+    
     .question button{
         font-size: 30px;
         padding: 10px !important;
