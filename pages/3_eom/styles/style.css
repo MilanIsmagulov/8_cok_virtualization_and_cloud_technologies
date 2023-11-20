@@ -6,7 +6,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat' , sans-serif;
+
 }
+
 
 body {
     margin: 0;
@@ -336,6 +338,100 @@ header h1 {
 @media (max-width: 1180px){
     .question_wrap button{
         padding: 0px !important;
+    }
+
+    *{
+        -webkit-appearance: none !important;
+        -moz-appearance:    none !important;
+        appearance:         none !important;
+    }
+
+    .popup_question p{
+        font-size: 2.25vh !important;
+    }
+
+    .question_type_0_answers div{
+        height: 6vh;
+    }
+
+    .question_type_0_answers input{
+        height: clamp(24px,1vh,25px) !important;
+        width: clamp(24px,1vh,25px) !important;
+    }
+
+    .question_type_0_answers p{
+        font-size: inherit;
+    }
+
+    .question_type_1_answers{
+        justify-content: space-between;
+    }
+
+    .place_of_custom_dropdown{
+        font-size: 15px !important;
+    }
+    
+    .question_type_1_answers p{
+        font-size: 10px;
+    }
+    .question_type_1_answers input{
+        height: clamp(24px,1vh,25px) !important;
+        width: clamp(24px,1vh,25px) !important;
+    }
+
+    .custom-dropdown-input{
+        min-width: 100px;
+        margin: 1px !important;
+        padding: 2px !important;
+    }
+
+    .question_type_1_answers div{
+        height: 6vh;
+        margin: 10px;
+    }
+
+    .question_type_3_drag{
+        font-size: 7px !important;
+    }
+
+    .question_type_4_answer{
+        margin: 2px !important;
+        font-size: 10px !important;
+        min-height: 30px !important;
+        width: 100px !important;
+        padding: 10px !important;
+    }
+
+    .question_type_4_tables{
+        justify-content: center !important;
+    }
+
+    .question_type_4_table_name{
+        margin: 5px !important;
+    }
+
+    .question_type_4_answer_drop_zone{
+        margin: 5px !important;
+    }
+
+    .question_type_5_answers{
+        width: 50% !important; 
+    }
+
+    .question_type_5_dropdown_block{
+        align-items: center;
+    }
+
+    .custom-dropdown-select{
+        font-size: 15px !important;
+    }
+    
+    .custom-dropdown-select div{
+        font-size: 15px !important;
+    }
+
+    .custom-dropdown-input-placeholder{
+        font-size: 15px !important;
     }
 
     .state_marker img{
