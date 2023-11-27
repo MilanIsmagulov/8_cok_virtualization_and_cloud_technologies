@@ -1,0 +1,30 @@
+<course>
+<title>ФГОС СПО 10.02.05 МДК.01.01 Виртуализация и облачные технологии</title>
+<description/>
+<language>ru</language>
+<!-- Что это? -->
+<code>301121134</code> 
+<!-- Что это? -->
+<fgos_title>ФГОС СПО 10.02.05</fgos_title>
+<fgos_text>Обеспечение информационной безопасности автоматизированных систем
+</fgos_text>
+<mdk_title>МДК.01.01</mdk_title>
+<mdk_text>Операционные системы</mdk_text>
+<structure>
+<item0>
+<name>Виртуализация и облачные технологии
+</name>
+<code>1_eom</code>
+</item0>
+<item1>
+<name>Виртуализация и облачные технологии
+</name>
+<code>2_eom</code>
+</item1>
+<item2>
+<name>Виртуализация и облачные технологии
+</name>
+<code>3_eom</code>
+</item2>
+</structure>
+</course>
