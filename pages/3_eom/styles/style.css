@@ -22,15 +22,14 @@ header {
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 35px;
 }
 
 .header_wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4vh;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 .header_links {
@@ -215,7 +214,7 @@ header h1 {
 
 @media (width <= 1280px) {
     header h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .header_links a {
@@ -227,10 +226,6 @@ header h1 {
         margin-left: 20px;
     }
 
-    .header_wrap {
-        height: 60px;
-    }
-    
     .question_wrap button {
         font-size: 30px;
         padding: 10px;
@@ -286,10 +281,7 @@ header h1 {
 }
 
 @media (width <= 1000px) {
-    .header_wrap {
-        height: 35px;
-    }
-    
+
     .question_wrap button {
         font-size: 25px;
         width: 120px;
